@@ -215,6 +215,7 @@ export const education = [
     location: "Karachi, Pakistan",
     period: "Aug 2025 – Current",
     status: "In Progress",
+    logo: "/ned_uni_logo.jpg",
   },
   {
     degree: "B.E. Computer Systems Engineering",
@@ -222,6 +223,7 @@ export const education = [
     location: "Jamshoro, Pakistan",
     period: "Oct 2018 – Dec 2022",
     status: "Completed",
+    logo: "/mehran_uni_logo.png",
   },
 ];
 

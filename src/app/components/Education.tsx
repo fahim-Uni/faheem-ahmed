@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { SectionLabel } from "./SectionLabel";
 import { education, certifications, awards } from "../data/portfolio";
-import { GraduationCap, Award, FileCheck } from "lucide-react";
+import { Award, FileCheck } from "lucide-react";
 
 export function Education() {
   return (
@@ -21,9 +21,9 @@ export function Education() {
               viewport={{ once: false }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
             >
-              <div className="w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0"
-                style={{ background: "#D4AF37" }}>
-                <GraduationCap size={20} color="#F5F5F5" />
+              <div className="w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden"
+                style={{ background: "#161616", border: "1px solid rgba(255,255,255,0.08)" }}>
+                <img src={edu.logo} alt={edu.institution} className="w-full h-full object-contain" />
               </div>
               <div className="flex-1">
                 <div className="flex items-start justify-between gap-3 mb-2">
