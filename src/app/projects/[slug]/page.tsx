@@ -83,7 +83,7 @@ export default function ProjectDetail() {
               <img
                 src={img}
                 alt={`${project.name} screenshot ${i + 1}`}
-                className="w-full h-full object-cover"
+                className="w-full h-full"
               />
             </div>
           ))}
