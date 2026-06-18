@@ -212,11 +212,14 @@ export function Hero() {
               className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4"
               style={{ borderColor: "rgba(212,175,55,0.3)" }}
             >
-              <img
-                src={profile.image}
-                alt={profile.name}
-                className="w-full h-full object-cover"
-              />
+              <div className="w-full h-full">
+                <img
+                  src={profile.image}
+                  alt={profile.name}
+                  className="w-full h-full"
+                  style={{ objectPosition: "%" }}
+                />
+              </div>
             </div>
           </motion.div>
         </div>
