@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Mail, Phone, MapPin, Linkedin, Github } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Github, Download } from "lucide-react";
 import { profile } from "../data/portfolio";
 
 export function Hero() {
@@ -155,8 +155,21 @@ export function Hero() {
               </a>
             </div>
 
+            {/* download resume */}
+            <a
+              href="/faheem_flutter_developer_resume.pdf"
+              download
+              className="mt-8 inline-flex items-center gap-2.5 px-6 py-2.5 rounded-xl transition-all hover:-translate-y-0.5"
+              style={{ background: "rgba(212,175,55,0.12)", border: "1px solid rgba(212,175,55,0.35)" }}
+            >
+              <Download size={16} style={{ color: "#D4AF37" }} />
+              <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: "13px", fontWeight: 600, color: "#D4AF37" }}>
+                Download Resume
+              </span>
+            </a>
+
             {/* contact chips */}
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="mt-6 flex flex-wrap gap-3">
               {[
                 { icon: MapPin, text: profile.location },
                 { icon: Phone, text: profile.phone },
