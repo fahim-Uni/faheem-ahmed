@@ -24,16 +24,16 @@ __turbopack_context__.s([
 ]);
 const profile = {
     name: "Faheem Ahmed",
-    title: "Mobile App Engineer (Flutter)",
+    title: "Mobile App Developer (Flutter)",
     location: "Karachi, Pakistan",
     phone: "+92 3033083494",
     email: "faheemahmed.engineer@gmail.com",
     linkedin: "https://www.linkedin.com/in/faheem-ahmed-890ba51a1/",
     github: "https://github.com/fahim-Uni",
     image: "/p.JPG",
-    summary: "Flutter Mobile Engineer with 3 years of experience building and shipping production mobile applications and pixel-perfect UI implementation. Expert in converting complex Figma designs into scalable mobile architectures. Proven track record in real-time tracking, offline-first functionality, and managing end-to-end app deployment for platforms serving 10,000+ users.",
+    summary: "Flutter Mobile Developer with 3 years of experience building and shipping production mobile applications and pixel-perfect UI implementation. Expert in converting complex Figma designs into scalable mobile architectures. Proven track record in real-time tracking, offline-first functionality, and managing end-to-end app deployment for platforms serving 10,000+ users.",
     about: [
-        "I'm a Flutter Mobile Engineer based in Karachi, Pakistan, with 3 years of hands-on experience building and shipping production-grade mobile applications. I specialize in translating complex Figma designs into pixel-perfect, scalable mobile architectures that deliver seamless user experiences.",
+        "I'm a Flutter Mobile Developer based in Karachi, Pakistan, with 3 years of hands-on experience building and shipping production-grade mobile applications. I specialize in translating complex Figma designs into pixel-perfect, scalable mobile architectures that deliver seamless user experiences.",
         "My expertise spans the full mobile development lifecycle — from architecture and state management with Bloc/GetX to real-time tracking, offline-first functionality, and end-to-end app deployment on both the Play Store and App Store. I've built products serving 10,000+ users across corporate mobility, e-commerce, and social rewards platforms.",
         "Currently working as an Analyst Software Engineer at SNL Data Pvt Ltd, I focus on building robust Flutter applications with clean architecture, RESTful API integration, and real-time capabilities. I'm passionate about writing clean, maintainable code and constantly exploring new tools and patterns to deliver better products."
     ],

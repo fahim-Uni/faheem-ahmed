@@ -695,6 +695,10 @@
     gap: calc(var(--spacing) * 2);
   }
 
+  .gap-2\.5 {
+    gap: calc(var(--spacing) * 2.5);
+  }
+
   .gap-3 {
     gap: calc(var(--spacing) * 3);
   }
@@ -775,10 +779,6 @@
     object-fit: contain;
   }
 
-  .object-cover {
-    object-fit: cover;
-  }
-
   .p-2 {
     padding: calc(var(--spacing) * 2);
   }
@@ -825,6 +825,10 @@
 
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
+  }
+
+  .py-2\.5 {
+    padding-block: calc(var(--spacing) * 2.5);
   }
 
   .py-3 {

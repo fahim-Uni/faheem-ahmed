@@ -157,7 +157,7 @@ export function Hero() {
 
             {/* download resume */}
             <a
-              href="/faheem_flutter_developer_resume.pdf"
+              href="/resume.pdf"
               download
               className="mt-8 inline-flex items-center gap-2.5 px-6 py-2.5 rounded-xl transition-all hover:-translate-y-0.5"
               style={{ background: "rgba(212,175,55,0.12)", border: "1px solid rgba(212,175,55,0.35)" }}
